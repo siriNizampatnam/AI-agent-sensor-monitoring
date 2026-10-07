@@ -1,7 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
-const API_BASE_URL = "http://127.0.0.1:8000";
-const WS_URL = "ws://127.0.0.1:8000/ws/telemetry";
+const API_BASE_URL = "https://ai-agent-sensor-monitoring.onrender.com";
+
+const WS_URL = "wss://ai-agent-sensor-monitoring.onrender.com/ws/telemetry";
+
 
 function AlertAgent() {
   const [alerts, setAlerts] = useState([]);
