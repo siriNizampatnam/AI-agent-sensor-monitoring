@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
-const API_URL = "http://127.0.0.1:8000";
-const WS_URL = "ws://127.0.0.1:8000/ws/telemetry";
+const API_URL = "https://ai-agent-sensor-monitoring.onrender.com";
+const WS_URL = "wss://ai-agent-sensor-monitoring.onrender.com/ws/telemetry";
 
 const SERIES_COLORS = [
   "#8E44AD",
